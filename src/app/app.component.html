@@ -1,0 +1,9 @@
+<app-child-component
+  (sendOnomatopiaToParent)="Onreceive($event)"
+></app-child-component>
+
+<ul>
+  <li *ngFor="let ono of onomatoList">
+    <p>{{ ono }}</p>
+  </li>
+</ul>
